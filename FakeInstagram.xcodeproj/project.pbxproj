@@ -13,6 +13,20 @@
 		FC951E17240603BC00665361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC951E15240603BC00665361 /* Main.storyboard */; };
 		FC951E19240603BD00665361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC951E18240603BD00665361 /* Assets.xcassets */; };
 		FC951E1C240603BD00665361 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC951E1A240603BD00665361 /* LaunchScreen.storyboard */; };
+		FC9E4F862406ACF900CDE36F /* StoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E4F842406ACF900CDE36F /* StoriesTableViewCell.swift */; };
+		FC9E4F872406ACF900CDE36F /* StoriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9E4F852406ACF900CDE36F /* StoriesTableViewCell.xib */; };
+		FC9E4F8924074D7D00CDE36F /* HomePageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E4F8824074D7D00CDE36F /* HomePageTableViewController.swift */; };
+		FCFF03E6240810E1008D88E8 /* StoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF03E4240810E1008D88E8 /* StoriesCollectionViewCell.swift */; };
+		FCFF03E7240810E1008D88E8 /* StoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCFF03E5240810E1008D88E8 /* StoriesCollectionViewCell.xib */; };
+		FCFF03EC24089A06008D88E8 /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF03EA24089A06008D88E8 /* PostsTableViewCell.swift */; };
+		FCFF03ED24089A06008D88E8 /* PostsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCFF03EB24089A06008D88E8 /* PostsTableViewCell.xib */; };
+		FCFF03F024089AB5008D88E8 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF03EF24089AB5008D88E8 /* UIColor+Ext.swift */; };
+		FCFF03F42408E20C008D88E8 /* UserInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF03F22408E20C008D88E8 /* UserInfoTableViewCell.swift */; };
+		FCFF03F52408E20C008D88E8 /* UserInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCFF03F32408E20C008D88E8 /* UserInfoTableViewCell.xib */; };
+		FCFF03FA24092083008D88E8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF03F924092083008D88E8 /* User.swift */; };
+		FCFF03FF2409225A008D88E8 /* IGData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF03FE2409225A008D88E8 /* IGData.swift */; };
+		FCFF040224092346008D88E8 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF040124092346008D88E8 /* PostViewModel.swift */; };
+		FCFF0404240925D1008D88E8 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF0403240925D1008D88E8 /* Story.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		FC951E18240603BD00665361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC951E1B240603BD00665361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC951E1D240603BD00665361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9E4F842406ACF900CDE36F /* StoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesTableViewCell.swift; sourceTree = "<group>"; };
+		FC9E4F852406ACF900CDE36F /* StoriesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoriesTableViewCell.xib; sourceTree = "<group>"; };
+		FC9E4F8824074D7D00CDE36F /* HomePageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageTableViewController.swift; sourceTree = "<group>"; };
+		FCFF03E4240810E1008D88E8 /* StoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		FCFF03E5240810E1008D88E8 /* StoriesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoriesCollectionViewCell.xib; sourceTree = "<group>"; };
+		FCFF03EA24089A06008D88E8 /* PostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
+		FCFF03EB24089A06008D88E8 /* PostsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostsTableViewCell.xib; sourceTree = "<group>"; };
+		FCFF03EF24089AB5008D88E8 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		FCFF03F22408E20C008D88E8 /* UserInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoTableViewCell.swift; sourceTree = "<group>"; };
+		FCFF03F32408E20C008D88E8 /* UserInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoTableViewCell.xib; sourceTree = "<group>"; };
+		FCFF03F924092083008D88E8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FCFF03FE2409225A008D88E8 /* IGData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGData.swift; sourceTree = "<group>"; };
+		FCFF040124092346008D88E8 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		FCFF0403240925D1008D88E8 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,93 @@
 		FC951E0E240603BC00665361 /* FakeInstagram */ = {
 			isa = PBXGroup;
 			children = (
+				FCFF04002409232F008D88E8 /* ViewModel */,
+				FCFF03FD24092239008D88E8 /* DataBase */,
+				FCFF03F62409202C008D88E8 /* Model */,
+				FCFF03EE24089A98008D88E8 /* Extension */,
+				FC9E4F8A2407505E00CDE36F /* HomePage */,
 				FC951E0F240603BC00665361 /* AppDelegate.swift */,
 				FC951E11240603BC00665361 /* SceneDelegate.swift */,
 				FC951E13240603BC00665361 /* ViewController.swift */,
-				FC951E15240603BC00665361 /* Main.storyboard */,
 				FC951E18240603BD00665361 /* Assets.xcassets */,
 				FC951E1A240603BD00665361 /* LaunchScreen.storyboard */,
 				FC951E1D240603BD00665361 /* Info.plist */,
 			);
 			path = FakeInstagram;
+			sourceTree = "<group>";
+		};
+		FC9E4F8A2407505E00CDE36F /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				FCFF03F12408E1F3008D88E8 /* UserInfoCell */,
+				FCFF03E924089994008D88E8 /* PostsCell */,
+				FCFF03E82408991C008D88E8 /* StoriesCell */,
+				FC9E4F8824074D7D00CDE36F /* HomePageTableViewController.swift */,
+				FC951E15240603BC00665361 /* Main.storyboard */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		FCFF03E82408991C008D88E8 /* StoriesCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E4F842406ACF900CDE36F /* StoriesTableViewCell.swift */,
+				FC9E4F852406ACF900CDE36F /* StoriesTableViewCell.xib */,
+				FCFF03E4240810E1008D88E8 /* StoriesCollectionViewCell.swift */,
+				FCFF03E5240810E1008D88E8 /* StoriesCollectionViewCell.xib */,
+			);
+			path = StoriesCell;
+			sourceTree = "<group>";
+		};
+		FCFF03E924089994008D88E8 /* PostsCell */ = {
+			isa = PBXGroup;
+			children = (
+				FCFF03EA24089A06008D88E8 /* PostsTableViewCell.swift */,
+				FCFF03EB24089A06008D88E8 /* PostsTableViewCell.xib */,
+			);
+			path = PostsCell;
+			sourceTree = "<group>";
+		};
+		FCFF03EE24089A98008D88E8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FCFF03EF24089AB5008D88E8 /* UIColor+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FCFF03F12408E1F3008D88E8 /* UserInfoCell */ = {
+			isa = PBXGroup;
+			children = (
+				FCFF03F22408E20C008D88E8 /* UserInfoTableViewCell.swift */,
+				FCFF03F32408E20C008D88E8 /* UserInfoTableViewCell.xib */,
+			);
+			path = UserInfoCell;
+			sourceTree = "<group>";
+		};
+		FCFF03F62409202C008D88E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCFF03F924092083008D88E8 /* User.swift */,
+				FCFF0403240925D1008D88E8 /* Story.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCFF03FD24092239008D88E8 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				FCFF03FE2409225A008D88E8 /* IGData.swift */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		FCFF04002409232F008D88E8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FCFF040124092346008D88E8 /* PostViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +231,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFF03E7240810E1008D88E8 /* StoriesCollectionViewCell.xib in Resources */,
+				FC9E4F872406ACF900CDE36F /* StoriesTableViewCell.xib in Resources */,
+				FCFF03F52408E20C008D88E8 /* UserInfoTableViewCell.xib in Resources */,
 				FC951E1C240603BD00665361 /* LaunchScreen.storyboard in Resources */,
+				FCFF03ED24089A06008D88E8 /* PostsTableViewCell.xib in Resources */,
 				FC951E19240603BD00665361 /* Assets.xcassets in Resources */,
 				FC951E17240603BC00665361 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +248,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFF03E6240810E1008D88E8 /* StoriesCollectionViewCell.swift in Sources */,
+				FC9E4F862406ACF900CDE36F /* StoriesTableViewCell.swift in Sources */,
 				FC951E14240603BC00665361 /* ViewController.swift in Sources */,
+				FCFF03F42408E20C008D88E8 /* UserInfoTableViewCell.swift in Sources */,
 				FC951E10240603BC00665361 /* AppDelegate.swift in Sources */,
 				FC951E12240603BC00665361 /* SceneDelegate.swift in Sources */,
+				FCFF03FF2409225A008D88E8 /* IGData.swift in Sources */,
+				FCFF03F024089AB5008D88E8 /* UIColor+Ext.swift in Sources */,
+				FCFF0404240925D1008D88E8 /* Story.swift in Sources */,
+				FCFF03EC24089A06008D88E8 /* PostsTableViewCell.swift in Sources */,
+				FC9E4F8924074D7D00CDE36F /* HomePageTableViewController.swift in Sources */,
+				FCFF040224092346008D88E8 /* PostViewModel.swift in Sources */,
+				FCFF03FA24092083008D88E8 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
