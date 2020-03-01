@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uhl-3U-J4C">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="GQZ-TM-Yek">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="uhl-3U-J4C" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Xtk-BA-ptF"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="YkL-qp-5uj">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="HUP-lI-cTf" kind="relationship" relationship="viewControllers" id="MN5-lr-OPL"/>
+                        <segue destination="wWM-PQ-wox" kind="relationship" relationship="viewControllers" id="atI-6l-Jnx"/>
+                        <segue destination="tei-wh-P8u" kind="relationship" relationship="viewControllers" id="xLe-qy-jug"/>
+                        <segue destination="YL1-KC-KH3" kind="relationship" relationship="viewControllers" id="hHB-Il-SkG"/>
+                        <segue destination="jjg-32-k12" kind="relationship" relationship="viewControllers" id="x5h-VR-udi"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ccG-Fl-D47" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="118.52678571428571"/>
+        </scene>
+        <!--Home Page-->
+        <scene sceneID="Frg-qb-HPW">
+            <objects>
+                <tableViewController title="Home Page" id="2vH-b1-EAh" customClass="HomePageTableViewController" customModule="FakeInstagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="RFP-mO-a57">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="fW0-yG-eQj">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fW0-yG-eQj" id="Sjo-ZN-hSE">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="4nX-0N-5h2">
+                                <rect key="frame" x="0.0" y="71.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4nX-0N-5h2" id="NWe-m0-zsm">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="dN4-bL-Qt3">
+                                <rect key="frame" x="0.0" y="115" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dN4-bL-Qt3" id="t4H-Ak-l8K">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="2vH-b1-EAh" id="zgP-yQ-hLu"/>
+                            <outlet property="delegate" destination="2vH-b1-EAh" id="q3K-6p-aDw"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="12Q-Lb-3jc">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="camera" catalog="system" id="Ee0-1V-h8c">
+                            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        </barButtonItem>
+                        <view key="titleView" contentMode="scaleToFill" id="c0K-3j-7fy">
+                            <rect key="frame" x="157" y="0.0" width="100" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="qYV-Wy-laI">
+                                    <rect key="frame" x="-6.5" y="-8" width="113" height="60"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="qYV-Wy-laI" secondAttribute="height" multiplier="15:8" id="Dtr-3T-BGj"/>
+                                        <constraint firstAttribute="height" constant="60" id="JFZ-Za-894"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="qYV-Wy-laI" firstAttribute="centerX" secondItem="c0K-3j-7fy" secondAttribute="centerX" id="9Fq-ez-BSe"/>
+                                <constraint firstItem="qYV-Wy-laI" firstAttribute="centerY" secondItem="c0K-3j-7fy" secondAttribute="centerY" id="L57-0t-dau"/>
+                            </constraints>
+                        </view>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="paperplane" catalog="system" id="3RT-8C-1YF">
+                            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="homePageTableView" destination="RFP-mO-a57" id="zd7-TT-Swf"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sws-Cx-ztb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3013" y="-450"/>
+        </scene>
+        <!--Favorite Page-->
+        <scene sceneID="xzP-vq-w8C">
+            <objects>
+                <tableViewController title="Favorite Page" id="YL1-KC-KH3" customClass="FavoriteTableViewController" customModule="FakeInstagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="8f0-4F-EOP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Cuf-IT-ACF">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Cuf-IT-ACF" id="TZp-bv-f4K">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="YL1-KC-KH3" id="qud-TM-iB8"/>
+                            <outlet property="delegate" destination="YL1-KC-KH3" id="cTT-Ow-JXd"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title=" " image="heart" catalog="system" selectedImage="heart.fill" id="Oxr-aI-lrb"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2h3-eu-JYc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1996" y="1626"/>
+        </scene>
+        <!--User Info Page-->
+        <scene sceneID="0ko-zC-0Ok">
+            <objects>
+                <tableViewController title="User Info Page" id="jjg-32-k12" customClass="UserInfoPageTableViewController" customModule="FakeInstagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="eYJ-0B-AEa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Aoq-sk-G3D">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Aoq-sk-G3D" id="n31-gJ-ClU">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="jjg-32-k12" id="72r-oS-l9p"/>
+                            <outlet property="delegate" destination="jjg-32-k12" id="T1c-ph-ovV"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title=" " image="person" catalog="system" selectedImage="person.fill" id="EOp-ai-2Ra"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4wa-6W-uF2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1320" y="2350"/>
+        </scene>
+        <!--Add Post Page-->
+        <scene sceneID="V5s-Qo-L2W">
+            <objects>
+                <tableViewController title="Add Post Page" id="tei-wh-P8u" customClass="NewPostPageTableViewController" customModule="FakeInstagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Wgv-mJ-c3Z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="U6z-IJ-vWu">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="U6z-IJ-vWu" id="tLd-gV-r1n">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="tei-wh-P8u" id="YgF-VT-98b"/>
+                            <outlet property="delegate" destination="tei-wh-P8u" id="G0m-0e-XvE"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title=" " image="plus.app" catalog="system" selectedImage="plus.app.fill" springLoaded="YES" id="rhf-AB-7tU"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FXo-0Q-cOL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1996" y="938"/>
+        </scene>
+        <!--Search Page-->
+        <scene sceneID="qVT-uf-1DC">
+            <objects>
+                <tableViewController title="Search Page" id="wWM-PQ-wox" customClass="SearchPageTableViewController" customModule="FakeInstagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="JP4-Oz-oIB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="6es-ub-8gw">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6es-ub-8gw" id="e7q-ux-Af0">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="wWM-PQ-wox" id="Pp8-Nf-BRt"/>
+                            <outlet property="delegate" destination="wWM-PQ-wox" id="zGr-CX-qhu"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" image="magnifyingglass.circle" catalog="system" selectedImage="magnifyingglass.circle.fill" id="kIb-LS-ROo"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aiV-5C-ljt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1996" y="245"/>
+        </scene>
+        <!-- -->
+        <scene sceneID="udf-kl-9pu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HUP-lI-cTf" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title=" " image="house" catalog="system" selectedImage="house.fill" id="O2Q-0g-Pec"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="b0G-mN-7Yv">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2vH-b1-EAh" kind="relationship" relationship="rootViewController" id="MN3-uF-NA1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CtK-If-VGT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1997" y="-450"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Instagram_logo" width="1200" height="429"/>
+        <image name="camera" catalog="system" width="64" height="48"/>
+        <image name="heart" catalog="system" width="64" height="54"/>
+        <image name="heart.fill" catalog="system" width="64" height="54"/>
+        <image name="house" catalog="system" width="64" height="54"/>
+        <image name="house.fill" catalog="system" width="64" height="52"/>
+        <image name="magnifyingglass.circle" catalog="system" width="64" height="60"/>
+        <image name="magnifyingglass.circle.fill" catalog="system" width="64" height="60"/>
+        <image name="paperplane" catalog="system" width="64" height="60"/>
+        <image name="person" catalog="system" width="64" height="58"/>
+        <image name="person.fill" catalog="system" width="64" height="60"/>
+        <image name="plus.app" catalog="system" width="64" height="56"/>
+        <image name="plus.app.fill" catalog="system" width="64" height="56"/>
+    </resources>
+</document>

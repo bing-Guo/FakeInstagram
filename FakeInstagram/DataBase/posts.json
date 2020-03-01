@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "author":{
+        "id":"jigglypuff", "nickname": "胖丁", "headShot": "jigglypuff"
+      },
+      "id":"a0001",
+      "image":["concert-1"],
+      "text":"今天參加五月天演唱會，開心🥰🥰🥰",
+      "likeCount": 128,
+      "isFavorite":false,
+      "isMark":false
+    },
+    {
+      "author":{
+        "id":"pikachu", "nickname": "皮卡丘", "headShot": "pikachu"
+      },
+      "id":"a0002",
+      "image":["switzerland-1"],
+      "text":"陪小智來瑞士打到館，累🥱",
+      "likeCount": 10,
+      "isFavorite":false,
+      "isMark":false
+    }
+  ]
+}

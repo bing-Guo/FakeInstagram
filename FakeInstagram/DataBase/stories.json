@@ -1,0 +1,53 @@
+{
+  "stories": [
+    {
+      "author":{
+        "id":"pikachu", "nickname": "皮卡丘", "headShot": "pikachu"
+      },
+      "storyImage":[""]
+    },
+    {
+      "author":{
+        "id":"jigglypuff", "nickname": "胖丁", "headShot": "jigglypuff"
+      },
+      "storyImage":[""]
+    },
+    {
+      "author":{
+        "id":"snorlax", "nickname": "卡比獸", "headShot": "snorlax"
+      },
+      "storyImage":[""]
+    },
+    
+    {
+      "author":{
+        "id":"meowth", "nickname": "喵喵", "headShot": "meowth"
+      },
+      "storyImage":[""]
+    },
+    {
+      "author":{
+        "id":"charmander", "nickname": "小火龍", "headShot": "charmander"
+      },
+      "storyImage":[""]
+    },
+    {
+      "author":{
+        "id":"bulbasaur", "nickname": "妙蛙種子", "headShot": "bulbasaur"
+      },
+      "storyImage":[""]
+    },
+    {
+      "author":{
+        "id":"mew", "nickname": "夢幻", "headShot": "mew"
+      },
+      "storyImage":[""]
+    },
+    {
+      "author":{
+        "id":"squirtle", "nickname": "傑尼龜", "headShot": "squirtle"
+      },
+      "storyImage":[""]
+    }
+  ]
+}

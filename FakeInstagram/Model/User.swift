@@ -1,13 +1,7 @@
 import Foundation
 
-struct User {
+struct User: Codable {
     var id: String
     var nickname: String
     var headShot: String
-    
-    init(id: String, nickname: String, headShot: String) {
-        self.id = id
-        self.nickname = nickname
-        self.headShot = headShot
-    }
 }

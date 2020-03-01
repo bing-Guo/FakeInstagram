@@ -25,4 +25,15 @@ extension UIColor {
         return UIColor(hex: "#A6269D")
     }
     
+    class var _standard_gray: UIColor {
+        return UIColor(hex: "#333333")
+    }
+    
+    class var _standard_black: UIColor {
+        return UIColor(hex: "#000000")
+    }
+    
+    class var _standard_white: UIColor {
+        return UIColor(hex: "#FFFFFF")
+    }
 }
